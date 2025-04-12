@@ -18,3 +18,29 @@ body {
 .image-link {
     text-decoration: none !important;
 }
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-item {
+    display: grid;
+    grid-template-columns: 100px 1fr; /* Fixed width for date column */
+    align-items: start;
+    gap: 0.8em;
+    margin-bottom: 1em;
+}
+
+.news-date {
+    font-weight: bold;
+    color: #444;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.news-text {
+    color: #333;
+    line-height: 1.5;
+}
